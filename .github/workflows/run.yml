@@ -19,5 +19,5 @@ jobs:
             print("Directory contents:")
             for f in os.listdir():
                 print(f)
-            with open("output/output.txt", "w") as f:
+            with open(${{ github.workspace }} + "output/output.txt", "w") as f:
                 f.write(string)

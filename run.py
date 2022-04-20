@@ -6,7 +6,7 @@ import json
 string = "hello world!"
 
 # create file to store string in output directory
-with open("output/output.txt", "w") as f:
+with open("output/log.txt", "w") as f:
     f.write(string)
 
 

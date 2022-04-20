@@ -3,4 +3,10 @@ import sys
 import time
 import json
 
-print("hello world!")
+string = "hello world!"
+
+# create file to store string in output directory
+with open("output/output.txt", "w") as f:
+    f.write(string)
+
+
